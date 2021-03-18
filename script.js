@@ -7,7 +7,7 @@ function displayTodo(){
         document.getElementById('invalid').innerHTML=`Enter some text you schmuck!`}
         else{
     todoList.push(displayTxt);
-    var liID=parseInt(Math.random()*10000);    
+    var liID=parseInt(Math.random()*100000);    
     var low = document.getElementById('btnradio2');
     var hi = document.getElementById('btnradio3');
     if(low.checked==true){
